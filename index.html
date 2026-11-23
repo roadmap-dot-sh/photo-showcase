@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bộ sưu tập hình ảnh - Dự án xử lý phương tiện HTML</title>
+</head>
+<body>
+
+  <header>
+    <h1>Bộ sưu tập hình ảnh của tôi</h1>
+    <p>Dự án thực hành xử lý hình ảnh, chú thích và phương tiện nhúng trong HTML.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Những bức ảnh nổi bật</h2>
+
+      <!-- Hình 1: có figure + figcaption -->
+      <figure>
+        <img 
+          src="https://picsum.photos/id/1015/600/400" 
+          alt="Dòng sông uốn lượn giữa những ngọn núi phủ đầy cây xanh dưới ánh nắng ban mai" 
+          width="600" 
+          height="400">
+        <figcaption>Khung cảnh bình minh trên dòng sông giữa núi rừng.</figcaption>
+      </figure>
+
+      <!-- Hình 2: có figure + figcaption -->
+      <figure>
+        <img 
+          src="https://picsum.photos/id/1025/600/400" 
+          alt="Chú chó nhỏ màu nâu đang nằm nghỉ trên nền cỏ xanh" 
+          width="600" 
+          height="400">
+        <figcaption>Chú chó thư giãn trên bãi cỏ vào một buổi chiều.</figcaption>
+      </figure>
+
+      <!-- Hình 3: có figure + figcaption -->
+      <figure>
+        <img 
+          src="https://picsum.photos/id/1035/600/400" 
+          alt="Những tán lá xanh mướt phủ kín một con đường mòn trong khu rừng" 
+          width="600" 
+          height="400">
+        <figcaption>Con đường mòn yên tĩnh giữa khu rừng xanh.</figcaption>
+      </figure>
+
+      <!-- Hình 4: ảnh thường, không chú thích -->
+      <img 
+        src="https://picsum.photos/id/1040/600/400" 
+        alt="Một tòa nhà cổ kính với kiến trúc đá và những ô cửa sổ lớn" 
+        width="600" 
+        height="400">
+
+      <!-- Hình 5: ảnh thường, không chú thích -->
+      <img 
+        src="https://picsum.photos/id/1043/600/400" 
+        alt="Bãi biển cát trắng trải dài bên làn nước biển xanh trong" 
+        width="600" 
+        height="400">
+
+      <!-- Hình 6: ảnh TRANG TRÍ với alt="" -->
+      <img 
+        src="https://picsum.photos/id/1050/600/400" 
+        alt="" 
+        width="600" 
+        height="400">
+    </section>
+
+    <section>
+      <h2>Video giới thiệu</h2>
+      <video 
+        controls 
+        width="640" 
+        height="360" 
+        poster="https://picsum.photos/id/1060/640/360">
+        <source src="video-gioi-thieu.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ thẻ video. 
+        Vui lòng tải video tại 
+        <a href="video-gioi-thieu.mp4">đây</a>.
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Bộ sưu tập hình ảnh - Dự án thực hành HTML.</p>
+  </footer>
+
+</body>
+</html>
